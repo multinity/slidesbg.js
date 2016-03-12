@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <title>Slidesbg.js by multinity</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <h1>Slidesbg.js</h1>
+        <h2>Free jquery plugin for background slideshow</h2>
+        <a href="https://github.com/multinity/slidesbg.js" class="button"><small>View project on</small> GitHub</a>
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <h1>
+<a id="slidesbgjs--homepage" class="anchor" href="#slidesbgjs--homepage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>slidesbg.js — <a href="http://www.nauvalazhar.net/projects/slidesbg.js/">Homepage</a>
+</h1>
+
+<p>Free jquery plugin for background slideshow</p>
+
+<h2>
+<a id="penggunaan-slidesbgjs" class="anchor" href="#penggunaan-slidesbgjs" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Penggunaan Slidesbg.js</h2>
+
+<p>Jadikan website anda menjadi lebih hidup</p>
+
+<h3>
+<a id="1-memulai" class="anchor" href="#1-memulai" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>1. Memulai</h3>
+
+<p>Gunakan jQuery 1.7+ dan panggil file slidesbg.js</p>
+
+<div class="highlight highlight-text-html-basic"><pre>&lt;<span class="pl-ent">script</span> <span class="pl-e">src</span>=<span class="pl-s"><span class="pl-pds">"</span>jquery-1.7.1.min.js<span class="pl-pds">"</span></span>&gt;&lt;/<span class="pl-ent">script</span>&gt;
+&lt;<span class="pl-ent">script</span> <span class="pl-e">src</span>=<span class="pl-s"><span class="pl-pds">"</span>slidesbg.min.js<span class="pl-pds">"</span></span>&gt;&lt;/<span class="pl-ent">script</span>&gt;
+&lt;<span class="pl-ent">link</span> <span class="pl-e">rel</span>=<span class="pl-s"><span class="pl-pds">"</span>stylesheet<span class="pl-pds">"</span></span> <span class="pl-e">src</span>=<span class="pl-s"><span class="pl-pds">"</span>slidesbg.css<span class="pl-pds">"</span></span>&gt;</pre></div>
+
+<h3>
+<a id="2-html" class="anchor" href="#2-html" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>2. HTML</h3>
+
+<p>Slidesbg.js tidak memerlukan pengaturan lebih pada html anda
+cukup berikan id/class pada element yang akan dijadikan slider.</p>
+
+<div class="highlight highlight-text-html-basic"><pre>&lt;<span class="pl-ent">header</span> <span class="pl-e">id</span>=<span class="pl-s"><span class="pl-pds">"</span>myheader<span class="pl-pds">"</span></span>&gt;
+&lt;/<span class="pl-ent">header</span>&gt;</pre></div>
+
+<h3>
+<a id="3-panggil-plugin" class="anchor" href="#3-panggil-plugin" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>3. Panggil Plugin</h3>
+
+<p>Letakan code berikut dan header anda sudah menjadi slider.</p>
+
+<div class="highlight highlight-source-js"><pre><span class="pl-k">var</span> slides <span class="pl-k">=</span> [
+  <span class="pl-s"><span class="pl-pds">"</span>image1.jpg<span class="pl-pds">"</span></span>,
+  <span class="pl-s"><span class="pl-pds">"</span>image2.jpg <span class="pl-pds">"</span></span>
+];
+
+<span class="pl-en">$</span>(<span class="pl-s"><span class="pl-pds">"</span>#myheader<span class="pl-pds">"</span></span>).<span class="pl-en">slidesbg</span>({
+  dataSlide<span class="pl-k">:</span> slides
+});</pre></div>
+
+<h2>
+<a id="demo" class="anchor" href="#demo" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Demo</h2>
+
+<p>Anda bisa melihat contoh dari slidesbg.js.</p>
+
+<p>Demo: <a href="http://www.nauvalazhar.net/projects/slidesbg.js/#/demo/">Click Me</a></p>
+
+<h2>
+<a id="license" class="anchor" href="#license" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>License</h2>
+
+<p>The MIT License (MIT)</p>
+        </section>
+
+        <aside id="sidebar">
+          <a href="https://github.com/multinity/slidesbg.js/zipball/master" class="button">
+            <small>Download</small>
+            .zip file
+          </a>
+          <a href="https://github.com/multinity/slidesbg.js/tarball/master" class="button">
+            <small>Download</small>
+            .tar.gz file
+          </a>
+
+          <p class="repo-owner"><a href="https://github.com/multinity/slidesbg.js"></a> is maintained by <a href="https://github.com/multinity">multinity</a>.</p>
+
+          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
+      </div>
+    </div>
+
+  
+  </body>
+</html>
